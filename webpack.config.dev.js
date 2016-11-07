@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
-    './client/reduxstagram'
+    path.join(__dirname,'./client/reduxstagram')
   ],
   output: {
     path: path.join(__dirname, 'dist'),
